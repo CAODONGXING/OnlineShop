@@ -1,0 +1,374 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>会员中心</title>
+<!--[if IE]>
+    <!--[if IE 7]><link rel="stylesheet" type="text/css" href="css/ie7.css">
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="css/jiazaitoubu.css">
+<link rel="stylesheet" type="text/css" href="css/css.css">
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/index2.js"></script>
+<link rel="stylesheet" type="text/css" href="css/center.css">
+<!--城市联动-->
+<link rel="stylesheet" type="text/css" href="city/city.css">
+<script src="city/Popt.js"></script>
+<script src="city/cityJson.js"></script>
+<script src="city/citySet.js"></script>
+</head>
+<body>
+<!--top--><!--导航加搜索框--><!--导航--><script>
+window.onload=function(){
+	$(".aside").css({display:"none"})
+	$(".important").mouseenter(function(){
+		$(".aside").css({display:"block"})
+		}).mouseleave(function(){
+			$(".aside").css({display:"none"})
+			})
+	}
+</script>
+<!--当前位置-->
+<div class="now_positionm">
+<span>当前位置：</span><a href="#">首页></a><a href="#">个人中心</a>
+</div>
+<!--centers-->
+<div class="centers_m">
+	<!--清除浮动-->
+    <div class="clear_sm"></div>
+	<!--left-->
+    <div class="centers_ml">
+    	<!--头像-->
+        <div class="center_header">
+        	<a href="#"><img src="images/66f625e1ecfd7ad8244efabaa744aa73.png"/></a>
+            <em>您好，<font>admin</font></em>
+        </div>
+        <!--列表go-->
+        <div class="centers_listm">
+        	<div class="centers_listm_one">
+            	<img src="images/zshy.png"/>
+                <em>会员中心</em>
+            </div>
+            <!--一条开始-->
+            <div class="centers_listm_one_in">
+                <img src="images/shezhi.png"/>
+                <em>资料管理</em>
+                <b></b>
+            </div>
+            <span class="gjszmdm">
+                <a href="#" class="center_in_self"><font>信息资料</font></a>
+                <a href="#" class="center_in_self"><font>银行卡管理</font></a>
+            </span>
+            <!--一条开始-->
+            <div class="centers_listm_one_in">
+                <img src="images/ddgl.png"/>
+                <em>订单管理</em>
+                <b></b>
+            </div>
+            <span class="gjszmdm">
+                <a href="#" class="center_in_self"><font>我的订单</font></a>
+                <a href="#" class="center_in_self"><font>我的预约</font></a>
+                <a href="#" class="center_in_self"><font>评价订单</font></a>
+                <a href="#" class="center_in_self"><font>订单投诉</font></a>
+            </span>
+            <!--一条开始-->
+            <div class="centers_listm_one_in">
+                <img src="images/suo.png"/>
+                <em>账户安全</em>
+                <b></b>
+            </div>
+            <span class="gjszmdm">
+                <a href="#" class="center_in_self"><font>账户安全</font></a>
+                <a href="#" class="center_in_self"><font>账户余额</font></a>
+                <a href="#" class="center_in_self"><font>我的积分</font></a>
+                <a href="#" class="center_in_self"><font>积分兑换</font></a>
+                <a href="#" class="center_in_self"><font>我的经验</font></a>
+                <a href="#" class="center_in_self"><font>我的优惠卷</font></a>
+            </span>    
+            <!--一条开始-->
+            <div class="centers_listm_one_in">
+                <img src="images/wdssc.png"/>
+                <em>收藏管理</em>
+                <b></b>
+            </div>
+            <span class="gjszmdm">
+            	<a href="#" class="center_in_self"><font>店铺收藏</font></a>
+                <a href="#" class="center_in_self"><font>菜品收藏</font></a>
+            </span>    
+            <!--一条开始-->
+            <div class="centers_listm_one_in">
+                <img src="images/myfridend.png"/>
+                <em>好友管理</em>
+                <b></b>
+            </div>
+            <span class="gjszmdm">
+            	<a href="#" class="center_in_self"><font>我的消息</font></a>
+            	<a href="#" class="center_in_self"><font>我的好友</font></a>
+            </span>
+        </div>
+        <script type="text/javascript">
+		$(function(){//第一步都得写这个
+			$(".centers_listm_one_in").click(function(){
+			$(this).next(".gjszmdm").slideToggle().siblings("gjszmdm").slideUp()
+			});
+		})
+		</script>
+    </div>
+    <!--right-->
+    <div class="centers_mr">
+    <h1 class="welcom_tm">欢迎您，超级会员     <font>admin</font>！您上次登录时间为 2016-10-28 14:23</h1>
+    <!--一条开始-->
+    	<div class="public_m1">
+        	<div class="public_m2">资料管理</div>
+            <!--照片和内容-->	
+            <div class="zp_nrm">
+            	<!--left-->
+                <div class="zp_nrm_l">
+                	<img src="images/66f625e1ecfd7ad8244efabaa744aa73.png"/>
+                    <a href="#">更换头像</a>
+                </div>
+                <!--right-->
+                <div class="zp_nrm_r">
+                	<p><em>用户名：</em><i>赵大宝</i></p>
+                    <p><em>邀请码：</em><i>kfc132456487943321</i><font>(推荐邀请有奖)</font></p>
+                    <p><em>邮箱：</em><i>未设置</i><a href="#">立即设置</a></p>
+                    <p><em>手机号：</em><i>15554465535</i><a href="#">立即绑定</a></p>
+                    <p><em>性别：</em><input type="radio" name="sex" class="sex_m"><i>保密</i><input type="radio" name="sex" class="sex_m"><i>男</i><input type="radio" name="sex" class="sex_m"><i>女</i></p>
+                    <span class="borth_m">
+                    	<em>生日：</em>
+                        <select style=" float:left; height:23px; border:1px solid #eaeaea; margin-top:13px; margin-right:3px">
+                        	<option>-年-</option>
+                            <option>1994年</option>
+                        </select>
+                        <select style=" float:left; border:1px solid #eaeaea; margin-top:13px; margin-right:3px">
+                        	<option>-月-</option>
+                            <option>08月</option>
+                        </select>
+                        <select style=" float:left; border:1px solid #eaeaea; margin-top:13px; margin-right:3px">
+                        	<option>-日-</option>
+                            <option>14日</option>
+                        </select>
+                        <font>(可能有惊喜哦)</font>
+                    </span>
+                    <p><em>口味偏：</em><input type="radio" name="sexl" class="sex_m"><i>酸</i><input type="radio" name="sexl" class="sex_m"><i>甜</i><input type="radio" name="sexl" class="sex_m"><i>苦</i></p>
+                    <a href="#" class="public_m3">保存修改</a>
+                </div>
+            </div>
+        </div>
+	<!--一条开始--><!--订单信息-->
+    	<div class="public_m1">
+        	<div class="public_m2">订单状态</div>
+            <!--各种进度--><!--各种信息-->
+            <div class="gezhong_xxm">
+            	<ul>
+                	<li><em>下单时间：</em><a href="#"><i>2016-10-21 11:52:38</i></a></li>
+                    <li><em>订单号：</em><a href="#">2016102111523538</a></li>
+                    <li><em>收货信息：</em></li>
+                    <li></li>
+                </ul>
+            </div>
+            <!--一个订单信息-->
+            <div class="public_m5">
+            	<table border="0" cellspacing="0" cellpadding="0">
+                	<tbody>
+						<tr style=" border-bottom:1px solid #000">
+                        	<th class="olist1">商品名</th>
+                            <th class="olist2">单价（元）</th>
+                            <th class="olist3">数量</th>
+                            <th class="olist4">单位</th>
+                            <th class="olist5">小计</th>
+                        </tr>
+						<tr>
+						  	<td><a href="#">青岛大虾</a></td>
+							<td>￥288.00</td>
+							<td>3</td>
+                            <td class="money">只</td>
+							<td>￥864.00</td>
+                        </tr>
+						<tr>
+						  	<td><a href="#">肉肉</a></td>
+							<td>￥288.00</td>
+							<td>3</td>
+                            <td class="money">盘</td>
+							<td>￥864.00</td>
+                        </tr>
+					</tbody>
+                </table>
+            </div>
+            <!--位置信息-->
+            <div class="weizhi_xxm">
+            	位置信息：<font>大厅11号桌</font>
+            </div>
+            <!--合计金额-->
+            <div class="heji_jem">
+            	合计金额：<font>1038.00元</font>
+            </div>
+            <!--订餐留言-->
+            <div class="dingcan_lym">
+            	<em>订餐留言：</em>
+                <p>最佳答案：APP是英文Application(应用)的简称,由于iPhone智能手机的流行,现在的APP多指移动设备(包括平板电脑、手机、和其他移动设备)上的第三方应用程序。 目前比...</p>
+            </div>
+        </div>
+    <!--一条开始 订单信息结束-->
+
+    	<div class="public_m1">
+        	<div class="public_m2">账户安全</div>
+            <div class="public_m4">
+            	<p><em>您当前的安全等级：</em><i style="color:#fa3b4a">高</i></p>
+            </div>
+            <!--各种设置-->    
+            <div class="gezhong_szm">
+            	<!--一条开始a-->
+                <div class="gezhong_szm_in">
+                	<b style=" background:url(images/fourm.png) no-repeat 0 0"></b>
+                    <span>登录密码<br><em>已设置</em></span>
+                    <p>安全性高的密码，可以使账户更安全。建议您定期更换密码。安全性高的密码，可以使账户更安全。建议您定期更换密码。安全性高的密码，可以使账户更安全。建议您定期更换密码。</p>
+                    <a href="#">修改密码</a>
+                </div>
+                <!--一条开始a--><!--一条开始a-->
+                <div class="gezhong_szm_in">
+                	<b style=" background:url(images/fourm.png) no-repeat 0 -100px"></b>
+                    <span>手机绑定<br><em>已设置</em></span>
+                    <p>进行手机验证后，可用于接收敏感操作的身份验证信息，以及进行积分消费的验证确认，非常有助于保护您的账号和账户财产安全。</p>
+                    <a href="#">修改手机</a>
+                </div>
+            <!--一条开始a--></div> 
+        </div>
+    <!--一条开始--><!--一条开始--><!--一条开始--><!--一条开始-->
+    	<div class="public_m1">
+        	<div class="public_m2">登录密码修改</div>
+            <!--提示信息-->	
+            <div class="tip_notem">
+            	<ul>
+                	<li>1.请牢记登录密码</li>
+                    <li>2.如果丢失密码，可以通过绑定的手机或邮箱找到</li>
+                </ul>
+            </div>
+            <div class="public_m4">
+            	<p>
+                	<em>原密码：</em>
+                    <input type="text" style=" height:23px; border:1px solid #eaeaea; width:140px">
+                </p>
+                <p>
+                	<em>新的密码：</em>
+                    <input type="text" style=" height:23px; border:1px solid #eaeaea; width:140px">
+                </p>
+                <p>
+                	<em>确认密码：</em>
+                    <input type="text" style=" height:23px; border:1px solid #eaeaea; width:140px">
+                </p>
+                <a href="#" class="public_m3">确认修改</a>
+            </div>
+        </div>  
+    <!--一条开始--><!--一条开始--><!--一条开始--><!--一条开始--><!--一条开始--><!--一条开始--><!--占空隙--><!--占空隙--><!--一条开始--><!--一条开始--></div>
+</div>
+<!--页脚-->
+<div class="ye_foot">
+	<div class="ye_foot_in">
+    	<span>
+        	<h3>新手上路</h3>
+            <a href="#">用户注册</a>
+            <a href="#">帮助中心</a>
+        </span>
+        <span>
+        	<h3>订单中心</h3>
+            <a href="#">我的订单</a>
+            <a href="#">查看订单</a>
+        </span>
+        <span>
+        	<h3>会员中心</h3>
+            <a href="#">我的收藏</a>
+            <a href="#">我的点评</a>
+            <a href="#">我的积分</a>
+        </span>
+        <span>
+        	<h3>合作联系</h3>
+            <a href="#">友情链接</a>
+            <a href="#">广告服务</a>
+            <a href="#">合作联系</a>
+        </span>
+        <span>
+        	<h3>关于我们</h3>
+            <a href="#">公司简介</a>
+            <a href="#">办公环境</a>
+            <a href="#">招贤纳士</a>
+        </span>
+        <span>
+        	<h3>帮助中心</h3>
+            <a href="#">账户管理</a>
+            <a href="#">我是商家</a>
+            <a href="#">我是食客</a>
+        </span>
+    </div>
+    <hr style=" width:1200px; height:1px; background:#8b8b8b;color:#8b8b8b; display:block; margin:0 auto"/>
+    <p class="wahaha">CopyRight 2010 订餐在线 www.czzkeji.com 鲁ICP备6842156792号 </p>
+</div>
+</body>
+</html>    
+            
+                    
+          
+	   	
+                
+            
+            
+            			  
+    
+           
+       	
+				     
+             		
+            
+           
+        
+    			 
+        	
+       
+            
+            
+            
+            
+    	
+                         
+       
+                                                     
+                            
+					      
+                
+        
+       	
+					     
+           
+            
+             
+        	
+					
+            
+            
+                
+                           
+                
+
+        
+                
+                        
+                
+                
+                    	
+               
+             
+                 
+                
+                
+                
+                
+                
+            
+                  
+        
+    	
+    
+			
+
+                
+    

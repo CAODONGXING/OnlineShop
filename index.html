@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content=" LiYuxi" />
+<meta name="Copyright" content="" />
+<meta name="Keywords" content="">   
+<meta name="Description" content="">   
+<title>首页</title>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="css/styles.css" type="text/css">
+<link rel="stylesheet" href="css/luara.left.css"/>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+	<script src="js/jquery-1.8.3.min.js"></script>
+    <!--Luara js文件-->
+    <script src="js/jquery.luara.0.0.1.min.js"></script>
+  <div class="wrap bc">
+    <div class="title tc pr top">
+	  <span class="back-btn"></span>yebuda
+     <a href="login1.html"><div class="user-btn" ></div></a>
+	  <div class="nav-btn">
+	    <ul class="pa">
+	      <li><a href="list.html">面部护肤</a>
+          </li><li><a href="list2.html">彩妆</a></li>
+		  <li><a href="list3.html">香水</a></li>
+		  <li><a href="list4.html">个人护理</a></li>
+		  <li><a href="list5.html">男士专区</a></li>
+	    </ul>
+	  </div>
+	</div>
+	<div class="logo oh tc mt10">
+	   <img src="uploads/logo.png" />
+	</div>
+	<ul class="nav title mt10">
+	  <li><a href="list.html">面部护肤</a></li>
+      <li><a href="list2.html">彩妆</a></li>
+	  <li><a href="list3.html">香水</a></li>
+	  <li><a href="list4.html">个人护理</a></li>
+      <li><a href="" class="last">男士专区</a></li>
+	</ul>
+<!--	<div class="banner oh mt10 pr">
+	  <ul class="pr">
+	    <li><a href=""><img src="uploads/banner.png"/></a></li>
+		<li><a href=""><img src="uploads/banner1.png"/></a></li>
+	  </ul>
+	  <div class="focus pa">
+	    <span class="pa"></span>
+	  </div>
+	</div>-->
+	   <!--Luara图片切换骨架begin-->
+    <div class="example2">
+        <ul>
+            <li><a href=""><img src="uploads/banner.png" alt="1"/></a></li>
+            <li><a href=""><img src="uploads/banner1.png" alt="2"/></a></li>
+            <li><a href=""><img src="uploads/banner.png" alt="3"/></a></li>
+            <li><a href=""><img src="uploads/banner1.png" alt="4"/></a></li>
+        </ul>
+        <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </div>
+    <!--Luara图片切换骨架end-->
+    <script>
+        $(function(){
+            <!--调用Luara示例-->
+            $(".example2").luara({width:"650",height:"334",interval:4500,selected:"seleted",deriction:"left"});
+
+        });
+    </script>
+	<div class="title mt10 pr">
+	  <h2>今日特惠<a href="list.html" class="more pa"><span class="hidden">更多</span></a></h2>
+	</div>
+	<div class="products">
+	  <ul>
+	    <li>
+		  <a href="pro_detail.php"><img src="uploads/product1.png"></a>
+		  <h4>全透水润透光面膜</h4>
+		  <h6><span>￥</span>74</h6>
+		</li>
+		<li>
+		  <a href="pro_detail1.html"><img src="uploads/product2.png"></a>
+		  <h4>抗老化再生保湿晚霜</h4>
+		  <h6><span>￥</span>379</h6>
+		</li>
+		<li>
+		  <a href="pro_detail2.html"><img src="uploads/product48.png"></a>
+		  <h4>LED显色护唇蜜</h4>
+		  <h6><span>￥</span>55</h6>
+		</li>
+		<li>
+		  <a href="pro_detail3.html"><img src="uploads/product3.png"></a>
+		  <h4>欧舒丹 牡丹花香润手霜</h4>
+		  <h6><span>￥</span>63</h6>
+		</li>
+		<li>
+		  <a href="pro_detail4.html"><img src="uploads/product4.png"></a>
+		  <h4>CLEANSING 清新卸妆水</h4>
+		  <h6><span>￥</span>245.2</h6>
+		</li>
+		<li>
+		  <a href="pro_detail5.html"><img src="uploads/product5.png"></a>
+		  <h4>唇彩胭脂两用慕丝</h4>
+		  <h6><span>￥</span>72</h6>
+		</li>
+	  </ul>
+	</div>
+	<div class="links mt10 oh cb">
+	  <ul class="tc">
+	    <li><a href="list.html">面部护肤</a></li>
+		<li><a href="list2.html">彩妆</a></li>
+		<li><a href="list3.html">香水</a></li>
+		<li><a href="list4.html">个人护理</a></li>
+		<li><a href="list5.html">男士专区</a></li>
+		<li><a href="list6.html">孕婴护理</a></li>
+	  </ul>
+	</div>
+	<div class="footer mt10 tc">
+	  <p class="phone">Design：曹冬幸 郑雯雯 王蕊</p>
+	  <p class="support">版权所有： 北京邮电大学世纪学院</p>
+
+	 
+	</div>
+  </div> 
+  <script type="text/javascript" src="js/script.js"></script>
+<div style="display:none"></div>
+</body>
+</html>

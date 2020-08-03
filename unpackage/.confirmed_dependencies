@@ -1,0 +1,49 @@
+{
+	"index.html": {
+		"resources": [
+			"images/back.png",
+			"uploads/logo.png",
+			"css/base.css",
+			"js/script.js",
+			"uploads/product.gif",
+			"js/jquery.min.js",
+			"css/styles.css",
+			"images/more.png",
+			"images/nav_btn.png",
+			"uploads/banner.gif",
+			"list.html",
+			"news_list.html",
+			"content.html"
+		],
+		"refer": [
+			"list.html",
+			"news_list.html",
+			"content.html"
+		]
+	},
+	"list.html": {
+		"resources": [
+			"index.html"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"news_list.html": {
+		"resources": [
+			"index.html",
+			"uploads/nopropic.jpg"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"content.html": {
+		"resources": [
+			"index.html"
+		],
+		"refer": [
+			"index.html"
+		]
+	}
+}
