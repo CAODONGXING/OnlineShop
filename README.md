@@ -48,14 +48,14 @@ Phpstorm 2017.
 
 > Product detail & OrderForm
 
-![image](https://github.com/CAODONGXING/CollaborativeClient/blob/master/changePW.png )
+![image](https://github.com/CAODONGXING/OnlineShop/blob/master/changePW.png )
 > Change password
 
-![image](https://github.com/CAODONGXING/CollaborativeClient/blob/master/Orderlist.png )
+![image](https://github.com/CAODONGXING/OnlineShop/blob/master/Orderlist.png )
 > History order list
 
-![image](https://github.com/CAODONGXING/CollaborativeClient/blob/master/PersonalCenter.png )
+![image](https://github.com/CAODONGXING/OnlineShop/blob/master/PersonalCenter.png )
 > Personal center
 
-![image](https://github.com/CAODONGXING/CollaborativeClient/blob/master/UploadProfile.png )
+![image](https://github.com/CAODONGXING/OnlineShop/blob/master/UploadProfile.png )
 > Upload profile
