@@ -21,11 +21,41 @@ Phpstorm 2017.
 
 ### Screenshot
 
-![](https://github.com/CAODONGXING/OnlineShop/blob/master/mainpage.png)
+<a style="float:right" href="" target="_blank">
+    <center class="half">
+    <img src="https://github.com/CAODONGXING/OnlineShop/blob/master/login.JPG" width="400"/>
+    <img src="https://github.com/CAODONGXING/OnlineShop/blob/master/registration.JPG" width="400"/>
+    </center> 
+</a>
 
-> Main Page
+> login & registration page
 
-![](https://github.com/CAODONGXING/OnlineShop/blob/master/login.png)
+<a style="float:right" href="" target="_blank">
+    <center class="half">
+    <img src="https://github.com/CAODONGXING/OnlineShop/blob/master/mainpage.JPG" width="400"/>
+    <img src="https://github.com/CAODONGXING/OnlineShop/blob/master/Submenu.JPG" width="400"/>
+    </center> 
+</a>
 
-> Login page
+> main page & Submenu 
 
+<a style="float:right" href="" target="_blank">
+    <center class="half">
+    <img src="https://github.com/CAODONGXING/OnlineShop/blob/master/mainpage.JPG" width="400"/>
+    <img src="https://github.com/CAODONGXING/OnlineShop/blob/master/OrderForm.JPG" width="400"/>
+    </center> 
+</a>
+
+> Product detail & OrderForm
+
+![image](https://github.com/CAODONGXING/CollaborativeClient/blob/master/changePW.png )
+> Change password
+
+![image](https://github.com/CAODONGXING/CollaborativeClient/blob/master/Orderlist.png )
+> History order list
+
+![image](https://github.com/CAODONGXING/CollaborativeClient/blob/master/PersonalCenter.png )
+> Personal center
+
+![image](https://github.com/CAODONGXING/CollaborativeClient/blob/master/UploadProfile.png )
+> Upload profile
