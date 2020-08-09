@@ -20,6 +20,11 @@ phpMyAdmin Database Manager Version  4.6.6.
 Phpstorm 2017. 
 
 ### Screenshot
+
+> Overview
+
+![image](https://github.com/CAODONGXING/OnlineShop/blob/master/overview.png )
+
 <!--
 <a style="float:right" href="" target="_blank">
     <center class="half">
